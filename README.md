@@ -8,7 +8,7 @@ contract BaseNFT is ERC721 {
     constructor() ERC721("BaseNFT", "BNFT") {}
     function mint() external {
         _safeMint(msg.sender, nextTokenId);
-        nextTokenId++;20
+        nextTokenId++;21
     }
 }
 
